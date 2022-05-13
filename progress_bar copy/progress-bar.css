@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+section {
+    margin: 10% 20%;
+}
+
+h2 {
+    padding: 2rem 0rem;
+    font-weight: bold;
+}
+
+h3 {
+    padding: 2rem, 0rem;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 150%;
+}
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 32px;
+    width: 8px;
+    background: linear-gradient(to bottom, #fb081c, #0f9371);
+    height: 60%;
+    z-index: 100;
+    transition: height 0.1s ease;
+}

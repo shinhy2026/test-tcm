@@ -1,0 +1,51 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+section {
+     height: 100vh;
+     scroll-snap-align: start;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: #FFC312;
+}
+.two {
+    background: #12CBC4;
+}
+.three {
+    background: #575fcf;
+}
+.four {
+    background: #ED4C67;
+}
+.five {
+    background: #E5E5E5;
+}
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 2rem;
+    width: 8px;
+    background: linear-gradient(to bottom, #fb081c, #000);
+    height: 60%;
+    z-index: 100;
+    transition: height 0.1s ease;
+}
